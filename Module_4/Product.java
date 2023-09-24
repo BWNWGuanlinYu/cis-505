@@ -3,8 +3,11 @@ public class Product {
     private String description = "";
     private double price = 0;
 
+    // Constructor
     public Product() {
     }
+
+    // Getter and Setter methods for code, description, and price
 
     public String getCode() {
         return code;
@@ -30,6 +33,7 @@ public class Product {
         this.price = price;
     }
 
+    // Override toString method to format product information
     @Override
     public String toString() {
         return "Product code: " + code + "\nDescription: " + description + "\nPrice: $" + String.format("$%,6.2f", price);
