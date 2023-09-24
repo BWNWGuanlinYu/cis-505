@@ -17,7 +17,7 @@ public class TestBowlingShopApp {
             }
         }
     }
-
+    // Display the menu
     public static void displayMenu() {
         System.out.println("MENU OPTIONS");
         System.out.println("1. <b> Bowling Balls");
@@ -26,7 +26,7 @@ public class TestBowlingShopApp {
         System.out.println("4. <x> To exit");
         System.out.print("Please choose an option: ");
     }
-
+    // Display the products in the queue
     public static void displayProducts(GenericQueue<Product> products) {
         System.out.println("--Product Listing--");
 
